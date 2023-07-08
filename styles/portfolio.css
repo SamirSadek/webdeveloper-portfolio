@@ -80,7 +80,7 @@ nav a {
 }
 
 .banner-title {
-    font-size: 85px;
+    font-size: 75px;
     font-style: normal;
     font-weight: 700;
     margin-top: 5px;
@@ -94,6 +94,10 @@ nav a {
 }
 
 /* main section styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /* about section styles */
 .about {
     margin: 130px 0px;
@@ -116,4 +120,12 @@ nav a {
     font-size: 18px;
     font-style: normal;
   
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.aboutinfo{
+    text-align: center;
 }
