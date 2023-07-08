@@ -94,10 +94,11 @@ nav a {
 }
 
 /* main section styles */
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
 }
+
 /* about section styles */
 .about {
     margin: 130px 0px;
@@ -115,17 +116,25 @@ main{
 }
 
 .section-description {
-    color:  #757575;
+    color: #757575;
     text-align: center;
     font-size: 18px;
     font-style: normal;
-  
+
 }
-.about-info-container{
+
+.about-info-container {
     display: flex;
     justify-content: space-around;
-    
+
 }
-.aboutinfo{
+
+.aboutinfo {
     text-align: center;
+}
+#what-i-do-description{
+    padding: 30px 140px;
+}
+.skills-container{
+    display: flex;
 }
